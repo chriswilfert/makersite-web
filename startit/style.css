@@ -18,6 +18,17 @@ CSS changes can be made in files in the /css/ folder. This is a placeholder file
 	margin-top: 20px !important;
 }
 
+<<<<<<< HEAD
+#communnity-guidelines-lists-custom ul li{
+	line-height: 2.0 !important;
+}
+
+p{
+	line-height: 2.0 !important;
+}
+
+=======
+>>>>>>> 4db6aced3ec8746824065e121616ff868ad459b3
 footer a {
     color: #a7a8a9 !important;
 }

@@ -3,9 +3,15 @@ jQuery(document).ready(function($){
 
 //Custom link 
 $(".custom-link").on("click",function(){
+<<<<<<< HEAD
+    var page='/marketplace';
+    window.location.href=page;
+});
+=======
     var page='/get-premium';
     window.location.href=page;
 })
+>>>>>>> 4db6aced3ec8746824065e121616ff868ad459b3
 
  $(".pricing-slider-info").css('visibility', 'hidden');
  $(".pricing-slider-info").height("20");
@@ -198,6 +204,10 @@ $(".custom-link").on("click",function(){
    $(".selected .icon_description h3").css({"color":"white" });
    $(".selected .icon_description_text span").css({"color":"white" });
    $(".premium-tabs").hide();
+<<<<<<< HEAD
+   
+=======
 
      
+>>>>>>> 4db6aced3ec8746824065e121616ff868ad459b3
 });

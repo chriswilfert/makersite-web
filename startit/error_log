@@ -3,6 +3,12 @@
 [22-Dec-2017 07:24:36 UTC] PHP Notice:  Undefined index: stripeToken in /home/makersite/public_html/staging.makersite.net/wp-content/themes/startit/create_subscription.php on line 14
 [22-Dec-2017 07:24:37 UTC] PHP Notice:  Undefined index: stripeEmail in /home/makersite/public_html/staging.makersite.net/wp-content/themes/startit/create_subscription.php on line 24
 [22-Dec-2017 07:24:37 UTC] unable to sign up customer:, error:This API call cannot be made with a publishable API key. Please use a secret API key. You can find a list of your API keys at https://dashboard.stripe.com/account/apikeys.
+<<<<<<< HEAD
+[10-Apr-2018 14:23:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/makersite/public_html/staging.makersite.net/wp-content/themes/startit/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/makersite/public_html/staging.makersite.net/wp-content/themes/startit/index.php on line 1
+=======
 [12-Feb-2018 23:25:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/makersite/public_html/wp-content/themes/startit/header.php:2
 Stack trace:
 #0 {main}
@@ -11,3 +17,4 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home/makersite/public_html/wp-content/themes/startit/header.php on line 2
+>>>>>>> 4db6aced3ec8746824065e121616ff868ad459b3
