@@ -1,0 +1,111 @@
+/*
+Theme Name: Startit
+Theme URI: http://startit.select-themes.com/
+Description: A Fresh Startup Business Theme
+Author: Select Themes
+Author URI:  http://themeforest.net/user/select-themes
+Version: 2.3
+License: GNU General Public License
+License URI: licence/GPL.txt
+
+CSS changes can be made in files in the /css/ folder. This is a placeholder file required by WordPress, so do not delete it.
+
+*/
+
+#go-pricing-table-18946 .gw-go-col-wrap-2 .gw-go-header{
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	margin-top: 20px !important;
+}
+
+footer a {
+    color: #a7a8a9 !important;
+}
+@media (min-width:320px) and (max-width:375px){
+	#qodef-back-to-top{
+	right:16px !important;
+	}
+
+}
+@media (min-width:384px) and (max-width:414px) {
+.partnership{
+     padding-left:15px !important;
+    }
+ .textwidget{
+        padding-bottom:45px !important;
+    }
+ .custom-width{
+        width:150px;
+        height:250px;
+        overflow:scroll;
+    }
+  .qodef-blog-holder.qodef-blog-type-standard article:not(.format-quote):not(.format-link) .qodef-post-text{
+        padding:0px !important;
+       
+    }
+    .qodef-blog-holder article .qodef-post-title{
+         font-size: 14px !important;
+    }	
+	
+}
+
+@media (min-width:320px) and (max-width:412px) {
+  .vc_row .home-heading {
+    margin-top:-40px;
+  }
+  .home-heading2{
+   margin-top:-60px;
+  }
+
+}
+.edn-ca-static-button{
+    border: 1px solid !important;
+    border-radius: 10px !important;
+    padding: 5px 20px 5px 20px !important;
+    position: relative !important;
+    bottom:5px !important;
+}
+.edn-static-button{
+	    background: transparent !important;
+}
+@media only screen and (max-width: 568px) and (min-width: 320px) 
+{
+  .edn-position-top .ednpro_user-can-close{
+       top: 39px !important;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 320px) 
+{
+	body footer .qodef-footer-top .qodef-column:nth-child(1) {
+		padding-top: 87px;
+	}
+	footer .qodef-four-columns .qodef-column{
+		text-align:left !important;
+	}
+	body footer .qodef-footer-top .qodef-column:nth-child(4){
+		width:100% !important;
+	}
+	
+}
+.social_twitter:before{
+	content:"\f099" !important;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body footer .qodef-footer-top .qodef-column:nth-child(2), body footer .qodef-footer-top .qodef-column:nth-child(3), body footer .qodef-footer-top .qodef-column:nth-child(4){
+	padding-top: 20px !important; 
+	min-height:320px !important;
+}
+@media only screen and (max-width: 2500px) and (min-width: 1401px) 
+{
+	body footer .qodef-footer-top .qodef-column:nth-child(1) {
+		    padding-top: 27px;
+	}
+}
+
+
+.notify-wrapper{display:none;}
