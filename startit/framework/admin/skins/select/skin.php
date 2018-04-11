@@ -53,6 +53,7 @@ class SelectSkin extends QodeStartitSkinAbstract {
         $this->styles['qodef-forms-admin'] = 'assets/css/qodef-forms.css';
         $this->styles['qodef-import'] = 'assets/css/qodef-import.css';
         $this->styles['font-awesome-admin'] = 'assets/css/font-awesome/css/font-awesome.min.css';
+        $this->styles['makersite'] = 'assets/css/makersite.css';
 
         foreach ($this->styles as $styleHandle => $stylePath) {
             qode_startit_register_skin_style($styleHandle, $stylePath);
