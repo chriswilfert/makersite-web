@@ -1,14 +1,11 @@
 .breadcrumbs {
-    font-size: 11px;
+    font-size: 13px;
     color: #666;
     padding: 20px 20px 50px 20px;
 }
 
 .breadcrumbs a,
-.breadcrumbs a:hover {
-    color: #0089d4;
-}
-
+.breadcrumbs a:hover,
 .breadcrumbs a:visited {
-    color: #666;
+    color: #0089d4;
 }
