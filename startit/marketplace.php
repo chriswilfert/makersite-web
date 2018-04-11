@@ -27,7 +27,7 @@ function breadcrumbs($separator = ' &raquo; ', $home = 'Home') {
         $title = ucwords(str_replace(Array('.php', '_'), Array('', ' '), $crumb));
 
         // If we are not on the last index, then display an <a> tag
-        if ($x == $last)
+        if ($x != $last)
             $breadcrumbs[] = "<a href=\"$base$crumb\">$title</a>";
         // Otherwise, just display the title (minus)
         else
@@ -49,7 +49,7 @@ function breadcrumbs($separator = ' &raquo; ', $home = 'Home') {
 		<?php do_action('qode_startit_after_container_open'); ?>
 		<div class="qodef-container-inner clearfix">
 
-			<div class="breadcrumbs"><a href="/">Home</a> > <a href="/data/">Marketplace</a>  > <p><?= breadcrumbs(' > ') ?></p></div>
+			<div class="breadcrumbs"><a href="/">Home</a> > <a href="/data/">Marketplace</a>  > <?= breadcrumbs(' > ') ?></div>
 
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
