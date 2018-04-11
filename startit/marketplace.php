@@ -15,7 +15,8 @@ function breadcrumbs($separator = ' &raquo; ', $home = 'Home') {
     $base = ($_SERVER['HTTPS'] ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/';
 
     // Initialize a temporary array with our breadcrumbs. (starting with our home page, which I'm assuming will be the base URL)
-    $breadcrumbs = Array("<a href=\"$base\">$home</a>");
+    //$breadcrumbs = Array("<a href=\"$base\">$home</a>");
+    $breadcrumbs = Array();
 
     // Find out the index for the last value in our path array
     $last = end(array_keys($path));
@@ -27,9 +28,9 @@ function breadcrumbs($separator = ' &raquo; ', $home = 'Home') {
 
         // If we are not on the last index, then display an <a> tag
         if ($x == $last)
-        /*    $breadcrumbs[] = "<a href=\"$base$crumb\">$title</a>";
+            $breadcrumbs[] = "<a href=\"$base$crumb\">$title</a>";
         // Otherwise, just display the title (minus)
-        else */
+        else
             $breadcrumbs[] = $title;
     }
 
@@ -48,7 +49,7 @@ function breadcrumbs($separator = ' &raquo; ', $home = 'Home') {
 		<?php do_action('qode_startit_after_container_open'); ?>
 		<div class="qodef-container-inner clearfix">
 
-			<div class="breadcrumbs"><a href="/">Home</a> > <a href="/data/">Marketplace</a>  > <p><?= breadcrumbs() ?></p></div>
+			<div class="breadcrumbs"><a href="/">Home</a> > <a href="/data/">Marketplace</a>  > <p><?= breadcrumbs(' > ') ?></p></div>
 
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
