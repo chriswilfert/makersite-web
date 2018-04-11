@@ -25,6 +25,7 @@
   <script src="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/wp-content/themes/startit/assets/js/custom.js'; ?>"></script>
   <link href="//static2cdn.hubspot.com/hubspot.com/static-1.4334/_hsg-ss/build/icons/hsg-icons.css" rel="stylesheet">
   <link href="//static2cdn.hubspot.com/hubspot.com/static-1.4334/_hsg-ss/build/css/hsg.css" rel="stylesheet">
+  <link href="/wp-content/themes/startit/assets/css/makersite.css" rel="stylesheet">
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments)};
