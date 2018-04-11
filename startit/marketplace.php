@@ -26,7 +26,7 @@ function breadcrumbs($separator = ' &raquo; ', $home = 'Home') {
         $title = ucwords(str_replace(Array('.php', '_'), Array('', ' '), $crumb));
 
         // If we are not on the last index, then display an <a> tag
-        if ($x != $last) and ($title != 'home')
+        if ($x != $last)
             $breadcrumbs[] = "<a href=\"$base$crumb\">$title</a>";
         // Otherwise, just display the title (minus)
         else
