@@ -16,6 +16,21 @@
 
 /* Career #page-id-20037  */
 
+.page-id-20037 .page-header {
+text-align: center;	
+	
+}
+
+.page-id-20037 .page-header h1 {
+text-transform: uppercase; 
+color: #fff;
+margin-bottom: 10px;
+}
+
+.page-id-20037 .page-header h4 {
+font-weight: 500;
+color: #fff;"
+}
 
 .page-id-20037 h1 {
 font-size: 32px;
