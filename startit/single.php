@@ -12,4 +12,5 @@
 	</div>
 <?php endwhile; ?>
 <?php endif; ?>
+<?php include "web_blog.php"; ?>
 <?php get_footer(); ?>

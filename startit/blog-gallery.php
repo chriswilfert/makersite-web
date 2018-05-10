@@ -14,4 +14,5 @@
             <?php the_content(); ?>
         </div>
     </div>
+<?php include "web_blog.php"; ?>
 <?php get_footer(); ?>

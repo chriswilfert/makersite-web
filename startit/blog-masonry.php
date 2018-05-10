@@ -13,5 +13,5 @@ Template Name: Blog Masonry
 		</div>
 		<?php do_action('qode_startit_before_container_close'); ?>
 	</div>
-<?php get_footer(); ?>
+<?php include "web_blog.php"; ?>
 <?php get_footer(); ?>
