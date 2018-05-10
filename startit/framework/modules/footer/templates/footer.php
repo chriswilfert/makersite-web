@@ -1,3 +1,8 @@
+<?php
+/**
+ * Footer template part
+ */
+
 <div class="web_blog">
 <div class="column_1">
     <h2><span>UPCOMING<span> WEBINAR</h2>
@@ -17,11 +22,6 @@
         <a href="#">Makersite Introduces Apps for Faster Ecodesign, Stewardship and Cost Analysis </a>
      </div>
 </div>
-
-<?php
-/**
- * Footer template part
- */
 
 qode_startit_get_content_bottom_area(); ?>
 </div> <!-- close div.content_inner -->
