@@ -70,7 +70,6 @@ $sidebar = qode_startit_sidebar_layout();
 		</div>
 	</div>
 </div>
-<?php include "web_blog.php"; ?>
 <?php wp_footer(); ?>
 </body>
 </html>

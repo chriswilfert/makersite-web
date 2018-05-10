@@ -45,5 +45,4 @@ $sidebar = qode_startit_sidebar_layout(); ?>
 	<?php endif; ?>
 </div>
 </div>
-<?php include "web_blog.php"; ?>
 <?php get_footer(); ?>

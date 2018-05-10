@@ -123,5 +123,4 @@ if ( $full_width ) { ?>
 
 			</div>
 	</div>
-<?php include "web_blog.php"; ?>
 <?php get_footer(); ?>

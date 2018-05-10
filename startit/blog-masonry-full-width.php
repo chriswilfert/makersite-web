@@ -13,5 +13,4 @@
 			<?php qode_startit_get_blog('masonry-full-width'); ?>
 		</div>
 	</div>
-<?php include "web_blog.php"; ?>
 <?php get_footer(); ?>
