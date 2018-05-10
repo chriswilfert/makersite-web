@@ -756,37 +756,6 @@ if(!function_exists('qode_startit_print_custom_js')) {
 }
 
 
-add_action('wp_footer', 'blog_posts');
-function blog_posts(){
-?>
-
-<div class="web_blog">
-  <div class="column_1">
-    <h2><span>UPCOMING<span> WEBINAR</h2>
-    <a href="#">
-      &quote;Circular Economy: New Developments And Success Factors For Businesses With Industrial, Technical And Durable Products&quote;
-      <span class="date">Wednesday, May 9, 2018 03:00 PM Europe/London</span>
-    </a>
-    <a href="" class="bt_cta">Learn more</a>
-   </div>
-  </div>
-  <div class="column_2">
-        <h2><span>LATEST</span> POSTS</h2>
-        <div class="latest_blog_posts">
-         <a href="#">Your new toolkit for sustainable products</a>
-         <a href="#">New supply chain tool helps businesses unearth the climate impact of their operations</a>
-         <a href="#">Makersite Offers Faster Analysis of Product Sustainability, Costs, Supply Chain Stewardship</a>
-         <a href="#">Digital tool maps the environmental impact of individual supply chains</a>
-         <a href="#">Makersite Introduces Apps for Faster Ecodesign, Stewardship and Cost Analysis </a>
-        </div>
-    </div>
-  </div>
-</div>
-
-<?php
-};
-
-
 if(!function_exists('qode_startit_get_global_variables')) {
     /**
      * Function that generates global variables and put them in array so they could be used in the theme
